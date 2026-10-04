@@ -1,0 +1,29 @@
+{
+ "executionTime": 4,
+ "liensCite": [
+  {
+   "id": "LEGIARTI000033012294",
+   "cidText": "JORFTEXT000000869867",
+   "cidParent": null,
+   "name": "Code du travail - art. L5143-1 (V)",
+   "nature": "CODE",
+   "dateVigeur": 1470787200000
+  }
+ ],
+ "liensCitePar": [
+  {
+   "id": "JORFTEXT000030978561",
+   "cidText": "JORFTEXT000030978561",
+   "name": "LOI n°2015-990 du 6 août 2015 - art. 53 (V)",
+   "nature": "JORF",
+   "dateVigeur": 1438905600000
+  },
+  {
+   "id": "LEGIARTI000032930490",
+   "cidText": "LEGITEXT000006072050",
+   "name": "(article citant - exemple)",
+   "nature": "CODE",
+   "dateVigeur": 1470787200000
+  }
+ ]
+}

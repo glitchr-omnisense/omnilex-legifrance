@@ -1,0 +1,92 @@
+{
+ "executionTime": 40,
+ "dereferenced": false,
+ "id": "LEGITEXT000038359719_22-06-2019",
+ "cid": "JORFTEXT000038358582",
+ "title": "LOI n° 2019-290 (intitulé - exemple)",
+ "nature": "LOI",
+ "etat": "VIGUEUR",
+ "jurisState": "VIGUEUR",
+ "nor": "JUSX1904815L",
+ "eli": "/eli/loi/2019/4/10/JUSX1904815L/jo/texte",
+ "dateDebutVersion": "2019-04-12",
+ "dateFinVersion": "2999-01-01",
+ "dateParution": 1554940800000,
+ "textAbroge": false,
+ "motsCles": [
+  "(mot-clé - exemple)"
+ ],
+ "sections": [
+  {
+   "id": "LEGISCTA000038360741",
+   "cid": "LEGISCTA000038360741",
+   "title": "Chapitre Ier : (titre - exemple)",
+   "etat": "VIGUEUR",
+   "intOrdre": 1,
+   "sections": [],
+   "articles": [
+    {
+     "id": "LEGIARTI000038360743",
+     "cid": "LEGIARTI000038360743",
+     "num": "1",
+     "etat": "VIGUEUR",
+     "intOrdre": 1,
+     "articleVersion": "1.0",
+     "content": "<p>(premier alinéa de l'article 1 - exemple)</p><p>(second alinéa - exemple)</p>",
+     "pathTitle": [
+      "Chapitre Ier : (titre - exemple)"
+     ],
+     "comporteLiens": true
+    },
+    {
+     "id": "LEGIARTI000038360745",
+     "cid": "LEGIARTI000038360745",
+     "num": "2",
+     "etat": "ABROGE",
+     "intOrdre": 2,
+     "articleVersion": "1.0",
+     "content": "<p>(article 2 - exemple)</p>",
+     "pathTitle": [
+      "Chapitre Ier : (titre - exemple)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "LEGISCTA000038360747",
+   "cid": "LEGISCTA000038360747",
+   "title": "Chapitre II : (titre - exemple)",
+   "etat": "VIGUEUR",
+   "intOrdre": 2,
+   "articles": [],
+   "sections": [
+    {
+     "id": "LEGISCTA000038360749",
+     "title": "Section 1 : (titre - exemple)",
+     "articles": [
+      {
+       "id": "LEGIARTI000038360751",
+       "num": "3 bis",
+       "etat": "VIGUEUR",
+       "content": "<p>(article 3 bis - exemple)</p>"
+      }
+     ],
+     "sections": []
+    }
+   ]
+  }
+ ],
+ "articles": [],
+ "liens": [
+  {
+   "id": "LEGIARTI000006419320",
+   "cidTexte": "LEGITEXT000006070721",
+   "title": "Code civil - art. 16 (exemple)",
+   "typeLien": "MODIFIE",
+   "sens": "source",
+   "natureTexte": "CODE",
+   "numTexte": "",
+   "norTexte": ""
+  }
+ ]
+}

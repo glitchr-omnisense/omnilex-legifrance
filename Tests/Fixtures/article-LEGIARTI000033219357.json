@@ -1,0 +1,102 @@
+{
+ "article": {
+  "id": "LEGIARTI000033219357",
+  "cid": "LEGIARTI000006465857",
+  "cidTexte": "LEGITEXT000006070987",
+  "idTexte": null,
+  "num": "L36-11",
+  "etat": "MODIFIE",
+  "nature": "Article",
+  "origine": "LEGI",
+  "type": "AUTONOME",
+  "dateDebut": 1475971200000,
+  "dateFin": 1543190400000,
+  "versionArticle": "9.0",
+  "ordre": 644235,
+  "texte": "(texte de l'article L36-11, version du 9 octobre 2016 - exemple)",
+  "texteHtml": "<p>(texte de l'article L36-11, version du 9 octobre 2016 - exemple)</p>",
+  "nota": "",
+  "notaHtml": "",
+  "fullSectionsTitre": "Partie législative > LIVRE II : Les communications électroniques > TITRE Ier : Dispositions générales",
+  "sectionParentCid": "LEGISCTA000006150658",
+  "sectionParentId": "LEGISCTA000006150658",
+  "sectionParentTitre": "(section - exemple)",
+  "articleVersions": [
+   {
+    "id": "LEGIARTI000006465857",
+    "numero": "L36-11",
+    "etat": "MODIFIE",
+    "dateDebut": 1090886400000,
+    "dateFin": 1310601600000,
+    "version": "1.0",
+    "ordre": 1
+   },
+   {
+    "id": "LEGIARTI000033219357",
+    "numero": "L36-11",
+    "etat": "MODIFIE",
+    "dateDebut": 1475971200000,
+    "dateFin": 1543190400000,
+    "version": "9.0",
+    "ordre": 1
+   },
+   {
+    "id": "LEGIARTI000024506177",
+    "numero": "L36-11",
+    "etat": "MODIFIE",
+    "dateDebut": 1310601600000,
+    "dateFin": 1475971200000,
+    "version": "5.0",
+    "ordre": 1
+   },
+   {
+    "id": "LEGIARTI000037826134",
+    "numero": "L36-11",
+    "etat": "VIGUEUR",
+    "dateDebut": 1543190400000,
+    "dateFin": 32472144000000,
+    "version": "10.0",
+    "ordre": 1
+   }
+  ],
+  "textTitles": [
+   {
+    "id": "LEGITEXT000006070987",
+    "cid": "LEGITEXT000006070987",
+    "titre": "Code des postes et des communications électroniques",
+    "titreLong": "Code des postes et des communications électroniques",
+    "nature": "CODE",
+    "etat": "VIGUEUR",
+    "dateDebut": 1475971200000,
+    "dateFin": 32472144000000
+   }
+  ],
+  "lienModifications": [
+   {
+    "articleId": "LEGIARTI000033205142",
+    "articleNum": "53",
+    "textCid": "JORFTEXT000033202746",
+    "textTitle": "LOI n°2016-1321 du 7 octobre 2016 - art. 53 (exemple)",
+    "natureText": "LOI",
+    "linkType": "MODIFIE",
+    "linkOrientation": "cible",
+    "dateSignaTexte": "2016-10-07",
+    "datePubliTexte": "2016-10-08",
+    "dateDebutCible": "2016-10-09"
+   }
+  ],
+  "lienCitations": [
+   {
+    "articleId": "LEGIARTI000006465859",
+    "articleNum": "L36-12",
+    "textCid": "LEGITEXT000006070987",
+    "textTitle": "Code des postes et des communications électroniques - art. L36-12 (exemple)",
+    "natureText": "CODE",
+    "linkType": "CITATION",
+    "linkOrientation": "source"
+   }
+  ]
+ },
+ "dereferenced": false,
+ "executionTime": 5
+}

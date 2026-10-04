@@ -1,0 +1,47 @@
+{
+ "executionTime": 9,
+ "dereferenced": false,
+ "text": {
+  "id": "JURITEXT000037999394",
+  "cid": "JURITEXT000037999394",
+  "origine": "JURI",
+  "provenance": "CAPP",
+  "nature": "ARRET",
+  "titre": "Cour d'appel de Nancy, 7 janvier 2019, 17/030701",
+  "juridiction": "Cour d'appel de Nancy",
+  "juridictionJudiciaire": "Juridictions d'appel",
+  "natureJuridiction": "Cour d'appel",
+  "siegeAppel": "NANCY",
+  "formation": "JX",
+  "numeroAffaire": [
+   "17/030701",
+   "17/030702"
+  ],
+  "dateTexte": 1546819200000,
+  "dateDerniereModif": 1546819200000,
+  "solution": "(solution - exemple)",
+  "ecli": "",
+  "typePublicationBulletin": null,
+  "publicationRecueil": null,
+  "texte": "(texte intégral de la décision - exemple)",
+  "texteHtml": "<p>(texte intégral de la décision - exemple)</p>",
+  "sommaire": [
+   {
+    "id": "1",
+    "resumePrincipal": "(résumé principal - exemple)",
+    "abstrats": "(abstrats - exemple)",
+    "autreResume": null
+   }
+  ],
+  "liens": [
+   {
+    "id": "LEGIARTI000006419320",
+    "cidTexte": "LEGITEXT000006070721",
+    "title": "Code civil - art. 16 (exemple)",
+    "typeLien": "CITATION",
+    "sens": "source",
+    "natureTexte": "CODE"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "executionTime": 31,
+ "totalResultNumber": 2,
+ "typePagination": "DEFAUT",
+ "facets": [
+  {
+   "facetElem": "JURIDICTION_JUDICIAIRE",
+   "field": "juridictionJudiciaire",
+   "values": {
+    "Juridictions d'appel": 2
+   }
+  }
+ ],
+ "results": [
+  {
+   "titles": [
+    {
+     "id": "JURITEXT000037999394",
+     "cid": "JURITEXT000037999394",
+     "title": "Cour d'appel de Nancy, 7 janvier 2019, 17/030701"
+    }
+   ],
+   "nature": "ARRET",
+   "date": "2019-01-07T00:00:00.000+0000",
+   "num": "17/030701",
+   "origin": "JURI",
+   "text": "(extrait de la décision - exemple)"
+  },
+  {
+   "titles": [
+    {
+     "id": "JURITEXT000037999395",
+     "cid": "JURITEXT000037999395",
+     "title": "Cour d'appel de Nancy, 7 janvier 2019, 17/030702"
+    }
+   ],
+   "nature": "ARRET",
+   "date": "2019-01-07T00:00:00.000+0000",
+   "num": "17/030702",
+   "origin": "JURI"
+  }
+ ]
+}

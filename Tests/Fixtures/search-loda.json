@@ -1,0 +1,49 @@
+{
+ "executionTime": 20,
+ "totalResultNumber": 135,
+ "typePagination": "DEFAUT",
+ "facets": [],
+ "results": [
+  {
+   "titles": [
+    {
+     "id": "LEGITEXT000038359719_22-06-2019",
+     "cid": "JORFTEXT000038358582",
+     "title": "LOI n° 2019-290 (intitulé - exemple)",
+     "legalStatus": "VIGUEUR",
+     "nature": "LOI",
+     "startDate": "2019-04-12T00:00:00.000+0000",
+     "endDate": "2999-01-01T00:00:00.000+0000"
+    }
+   ],
+   "nature": "LOI",
+   "etat": "VIGUEUR",
+   "nor": "JUSX1904815L",
+   "num": "2019-290",
+   "dateSignature": "2019-04-10T00:00:00.000+0000",
+   "datePublication": "2019-04-11T00:00:00.000+0000",
+   "date": "2019-04-10T00:00:00.000+0000",
+   "origin": "LEGI",
+   "sections": [
+    {
+     "id": "LEGISCTA000038360741",
+     "title": "(section - exemple)",
+     "extracts": [
+      {
+       "id": "LEGIARTI000038360743",
+       "num": "1",
+       "legalStatus": "VIGUEUR",
+       "values": [
+        "(extrait - exemple)"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "titles": [],
+   "nature": "DECRET"
+  }
+ ]
+}

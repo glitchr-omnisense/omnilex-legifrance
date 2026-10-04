@@ -1,0 +1,49 @@
+{
+ "executionTime": 12,
+ "totalResultNumber": 1,
+ "typePagination": "ARTICLE",
+ "facets": [],
+ "results": [
+  {
+   "titles": [
+    {
+     "id": "LEGITEXT000006070987",
+     "cid": "LEGITEXT000006070987",
+     "title": "Code des postes et des communications électroniques",
+     "legalStatus": "VIGUEUR",
+     "nature": "CODE",
+     "startDate": "2018-01-01T00:00:00.000+0000",
+     "endDate": "2999-01-01T00:00:00.000+0000"
+    }
+   ],
+   "sections": [
+    {
+     "id": "LEGISCTA000006150658",
+     "title": "(titre de la section - exemple)",
+     "legalStatus": "VIGUEUR",
+     "dateVersion": "2018-01-01T00:00:00.000+0000",
+     "extracts": [
+      {
+       "id": "LEGIARTI000033219357",
+       "num": "L36-11",
+       "legalStatus": "VIGUEUR",
+       "type": "articles",
+       "dateDebut": "2016-10-09T00:00:00.000+0000",
+       "dateFin": "2999-01-01T00:00:00.000+0000",
+       "dateVersion": "2016-10-09T00:00:00.000+0000",
+       "title": "L36-11",
+       "searchFieldName": "numArticle",
+       "values": [
+        "(extrait de l'article <mark>L36-11</mark> - exemple)"
+       ]
+      }
+     ]
+    }
+   ],
+   "nature": "CODE",
+   "etat": "VIGUEUR",
+   "origin": "LEGI",
+   "date": "2018-01-01T00:00:00.000+0000"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "omnilex/legifrance",
+    "type": "library",
+    "description": "Omnilex Légifrance: codes, laws, decrees and the Journal officiel from the Légifrance API (PISTE) - a text or one article as in force at a date, search in the codes, the consolidated texts and the case law, the links of an article, the texts published since a date.",
+    "keywords": [
+        "law",
+        "legislation",
+        "legifrance",
+        "piste",
+        "dila",
+        "codes",
+        "omnilex"
+    ],
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilex": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilex\\Legifrance\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilex\\Legifrance\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

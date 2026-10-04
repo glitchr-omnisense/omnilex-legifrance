@@ -1,0 +1,24 @@
+{
+ "executionTime": 15,
+ "totalResultNumber": 12,
+ "results": [
+  {
+   "id": "LEGITEXT000033280430",
+   "cid": "JORFTEXT000033279563",
+   "titre": "Ordonnance n° 2016-1406 du 20 octobre 2016 portant adaptation et simplification de la législation (exemple)",
+   "etat": "VIGUEUR",
+   "dateDebut": "2016-10-22T00:00:00.000+0000",
+   "dateFin": "2999-01-01T00:00:00.000+0000",
+   "lastUpdate": "2016-10-22T00:00:00.000+0000"
+  },
+  {
+   "id": "LEGITEXT000033280431",
+   "cid": "JORFTEXT000033279564",
+   "titre": "(décret - exemple)",
+   "etat": "VIGUEUR_DIFF",
+   "dateDebut": "2017-01-01T00:00:00.000+0000",
+   "dateFin": "2999-01-01T00:00:00.000+0000",
+   "lastUpdate": "2016-10-22T00:00:00.000+0000"
+  }
+ ]
+}
