@@ -20,7 +20,7 @@
     ],
     "require": {
         "php": ">=8.2",
-        "glitchr/omnilex": "^1.0@dev",
+        "omniscient/omnilex": "^1.0@dev",
         "symfony/http-client": "^6.4|^7.0|^8.0"
     },
     "require-dev": {
