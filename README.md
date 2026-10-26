@@ -1,6 +1,6 @@
 # omnilex/legifrance
 
-Légifrance for [omniscient/omnilex](https://github.com/glitchr-studio/omnilex): codes, laws,
+Légifrance for [omnisense/omnilex](https://github.com/glitchr-omnisense/omnilex): codes, laws,
 decrees and the Journal officiel through the DILA's API on PISTE - a text or one article **as
 in force at a date**, a search in the codes, the consolidated texts and the case law, the links
 of an article, the texts published since a date.

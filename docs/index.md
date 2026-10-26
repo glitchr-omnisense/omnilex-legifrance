@@ -17,7 +17,7 @@ $legifrance = (new LegifranceSourceFactory($httpClient, $tokenStore))->create([
 ```
 
 The token store is optional (see the core's
-[authentication](https://github.com/glitchr-studio/omnilex/blob/1.x/docs/authentication.md)):
+[authentication](https://github.com/glitchr-omnisense/omnilex/blob/1.x/docs/authentication.md)):
 without one, each PHP request asks PISTE for a new token.
 
 ## The documentation read
