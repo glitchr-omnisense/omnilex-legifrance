@@ -32,7 +32,7 @@ This package was written from the DILA's public documentation, without PISTE cre
 letter; the reading of the answers follows the Swagger's definitions, which the documentation
 does not illustrate with real answers. Expect adjustments at the first real run -
 `.samples/live.php` of the workspace runs the documented cases as soon as `PISTE_CLIENT_ID` and
-`PISTE_CLIENT_SECRET` are set. See [what is not verified](docs/index.md#not-verified).
+`PISTE_CLIENT_SECRET` are set. See [what is not verified](docs/index.md#verified-and-not).
 
 ## What you need to obtain
 
