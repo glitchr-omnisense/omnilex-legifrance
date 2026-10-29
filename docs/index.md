@@ -56,7 +56,7 @@ request asks PISTE for a new token), and asked afresh after a 401
 |---|---|---|---|---|
 | `client_id` | string | - | yes | |
 | `client_secret` | string | - | yes | |
-| `sandbox` | bool | `false` | no | PISTE's sandbox, with the sandbox application's credentials |
+| `sandbox` | bool (`"false"`, `"0"` false) | `false` | no | PISTE's sandbox, with the sandbox application's credentials |
 | `throttle` | float | `0.5` | no | seconds between two calls: a guess at fair use, the quotas are not public |
 | `base_uri` | string | production's or the sandbox's | no | |
 | `token_uri` | string | PISTE's or the sandbox's | no | |
@@ -64,10 +64,6 @@ request asks PISTE for a new token), and asked afresh after a 401
 
 A missing credential is an `InvalidConfigException` when the source is built (`Registry::usable()`
 leaves it out). Without an HTTP client, the factory makes one with a 60-second timeout.
-
-> [!WARNING]
-> Known defect: `sandbox` is read with PHP's `(bool)`: `sandbox: 'false'` builds a source on the
-> sandbox (seen on 2026-10-26). Give a real boolean (`%env(bool:PISTE_SANDBOX)%`).
 
 ## Capabilities
 

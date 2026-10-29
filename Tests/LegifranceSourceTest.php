@@ -432,6 +432,14 @@ final class LegifranceSourceTest extends TestCase
         self::assertSame(['consult/kaliText', ['id' => 'KALITEXT000005677408'], 'sandbox-api.piste.gouv.fr'], [$this->calls[1]['path'], $this->calls[1]['body'], $this->calls[1]['headers']['host']]);
     }
 
+    /** An option given by an environment variable arrives as a string: sandbox "false" is the production. */
+    public function testSandboxGivenAsAString(): void
+    {
+        $this->source(['sandbox' => 'false'])->request('consult/kaliText', ['id' => 'KALITEXT000005677408']);
+        self::assertNotSame(Piste::SANDBOX_TOKEN_URI, $this->calls[0]['path']);
+        self::assertNotSame('sandbox-api.piste.gouv.fr', $this->calls[1]['headers']['host']);
+    }
+
     public function testCredentialsAreNeededAndARefusalIsNotAnAnswer(): void
     {
         try {

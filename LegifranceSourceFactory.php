@@ -34,7 +34,7 @@ final class LegifranceSourceFactory extends SourceFactory
     protected function build(Config $c): SourceInterface
     {
         $http = $this->http ?? HttpClient::create(['timeout' => 60]);
-        $sandbox = (bool) $c['sandbox'];
+        $sandbox = $c->bool('sandbox');
 
         return new LegifranceSource(
             $http,
