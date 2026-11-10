@@ -1,0 +1,673 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Binary operation "\." between ''https\://www…'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 4
+			path: LegifranceSource.php
+
+		-
+			message: '#^Cannot access offset ''extracts'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: LegifranceSource.php
+
+		-
+			message: '#^Cannot access offset ''values'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Cannot access offset 0 on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 4
+			path: LegifranceSource.php
+
+		-
+			message: '#^Cannot call method format\(\) on DateTimeImmutable\|null\.$#'
+			identifier: method.nonObject
+			count: 5
+			path: LegifranceSource.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 2
+			path: LegifranceSource.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 50
+			path: LegifranceSource.php
+
+		-
+			message: '#^Method Omnilex\\Legifrance\\LegifranceSource\:\:request\(\) should return array\<string, mixed\>\|null but returns array\|null\.$#'
+			identifier: return.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$array \(list\<string\>\) of array_values is already a list, call has no effect\.$#'
+			identifier: arrayValues.list
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$array \(non\-empty\-list\<string\>\) of array_values is already a list, call has no effect\.$#'
+			identifier: arrayValues.list
+			count: 3
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of function array_map expects \(callable\(mixed\)\: mixed\)\|null, ''strval'' given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$html of static method Omnilex\\Source\\HttpSource\:\:plain\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 7
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$link of method Omnilex\\Legifrance\\LegifranceSource\:\:articleLink\(\) expects array\<string, mixed\>, array\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$links of method Omnilex\\Legifrance\\LegifranceSource\:\:textLinks\(\) expects list\<mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$links of method Omnilex\\Legifrance\\LegifranceSource\:\:textLinks\(\) expects list\<mixed\>, array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$node of method Omnilex\\Legifrance\\LegifranceSource\:\:collect\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$node of method Omnilex\\Legifrance\\LegifranceSource\:\:collect\(\) expects array\<string, mixed\>, array\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$result of method Omnilex\\Legifrance\\LegifranceSource\:\:articleReferences\(\) expects array\<string, mixed\>, array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$result of method Omnilex\\Legifrance\\LegifranceSource\:\:reference\(\) expects array\<string, mixed\>, array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#1 \$value of static method Omnilex\\Source\\HttpSource\:\:day\(\) expects int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 18
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#2 \$value of static method Omnilex\\Model\\Identifier\:\:tryOf\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 4
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \#6 \$location of class Omnilex\\Model\\Court constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$number of class Omnilex\\Model\\Reference constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 2
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$path of class Omnilex\\Model\\Article constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$publication of class Omnilex\\Model\\Decision constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$raw of class Omnilex\\Model\\Article constructor expects array\<string, mixed\>, array\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$raw of class Omnilex\\Model\\Decision constructor expects array\<string, mixed\>, array\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$raw of class Omnilex\\Model\\Reference constructor expects array\<string, mixed\>, array\<mixed\> given\.$#'
+			identifier: argument.type
+			count: 4
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$raw of class Omnilex\\Model\\Text constructor expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Parameter \$type of class Omnilex\\Model\\Reference constructor expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 5
+			path: LegifranceSource.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>citations" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: LegifranceSource.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: LegifranceSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 3
+			path: LegifranceSourceFactory.php
+
+		-
+			message: '#^Parameter \#7 \$tokenUri of static method Omnilex\\Auth\\Piste\:\:credentials\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: LegifranceSourceFactory.php
+
+		-
+			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
+			identifier: foreach.nonIterable
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Binary operation "\." between ''article\-'' and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Binary operation "\." between literal\-string&non\-falsy\-string and mixed results in an error\.$#'
+			identifier: binaryOp.invalid
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Call to an undefined method Omnilex\\Source\\SourceInterface\:\:article\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Call to an undefined method Omnilex\\Source\\SourceInterface\:\:text\(\)\.$#'
+			identifier: method.notFound
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''body'' on array\{path\: string, body\: array\<string, mixed\>, headers\: array\<string, string\>\}\|false\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 10
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''champs'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 6
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''criteres'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''dates'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''filtres'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 5
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''fond'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''id'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''num'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''pageNumber'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''pageSize'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''path'' on array\{path\: string, body\: array\<string, mixed\>, headers\: array\<string, string\>\}\|false\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 4
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''sort'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''textId'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''typeChamp'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''typePagination'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''typeRecherche'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset ''valeur'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access offset 0 on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 7
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$articles on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 5
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$citations on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 5
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$citations on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$citations on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$content on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$content on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$content on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$court on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$date on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$formation on Omnilex\\Model\\Court\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$from on Omnilex\\Model\\Version\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$id on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 6
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$id on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$id on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$id on Omnilex\\Model\\Version\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$identifiers on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$identifiers on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$identifiers on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$label on Omnilex\\Model\\Version\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$location on Omnilex\\Model\\Court\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$name on Omnilex\\Model\\Court\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$number on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$numbers on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$path on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$pseudonymised on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$publishedOn on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$raw on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$status on Omnilex\\Model\\Version\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$subjects on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$summary on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$textId on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$textTitle on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$title on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$title on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$to on Omnilex\\Model\\Version\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$type on Omnilex\\Model\\Decision\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$type on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$url on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$url on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$version on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 6
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$version on Omnilex\\Model\\Text\|null\.$#'
+			identifier: property.nonObject
+			count: 4
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot access property \$versions on Omnilex\\Model\\Article\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot call method article\(\) on Omnilex\\Model\\Text\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot call method format\(\) on DateTimeImmutable\|null\.$#'
+			identifier: method.nonObject
+			count: 9
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot call method isInForce\(\) on Omnilex\\Model\\Article\|null\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot call method isInForce\(\) on Omnilex\\Model\\Text\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Method Omnilex\\Legifrance\\Tests\\LegifranceSourceTest\:\:source\(\) has parameter \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Method Omnilex\\Legifrance\\Tests\\LegifranceSourceTest\:\:source\(\) should return Omnilex\\Legifrance\\LegifranceSource but returns Omnilex\\Source\\SourceInterface\.$#'
+			identifier: return.type
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$options of method Omnilex\\Source\\SourceFactory\:\:create\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$string of function strlen expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$string of function substr expects string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Parameter \#2 \$string of static method PHPUnit\\Framework\\Assert\:\:assertStringStartsWith\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 2
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Possibly invalid array key type mixed\.$#'
+			identifier: offsetAccess.invalidOffset
+			count: 1
+			path: Tests/LegifranceSourceTest.php
+
+		-
+			message: '#^Property Omnilex\\Legifrance\\Tests\\LegifranceSourceTest\:\:\$calls \(list\<array\{path\: string, body\: array\<string, mixed\>, headers\: array\<string, string\>\}\>\) does not accept non\-empty\-list\<array\{path\: string, body\: mixed, headers\: array\<string\>\}\>\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: Tests/LegifranceSourceTest.php

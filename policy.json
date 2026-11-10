@@ -1,0 +1,40 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "legifrance",
+    "rateLimits": null,
+    "concurrency": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "Source : Légifrance (DILA), données mises à jour le <date>",
+            "url": "https://www.legifrance.gouv.fr",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": "etalab-2.0"
+    },
+    "requirements": {
+        "key": true,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://piste.gouv.fr/images/cgu/DILA_Legifrance_Beta_v2.pdf",
+        "policy": "https://piste.gouv.fr/images/cgu/DILA_Legifrance_Beta_v2.pdf",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "retours-legifrance-modernise@dila.gouv.fr",
+        "notes": "Read on 2026-11-10: the DILA's CGU of the Légifrance API on PISTE (CGU JO V1.1, 04/08/2020). §IV.3: quotas per second / minute / day, on the number of requests or the bandwidth, for the whole application or one method, shown only in the PISTE application's 'Consulter les quotas', changeable at any time: no public figure, so null. Access needs a PISTE account, the API's CGU accepted, and OAuth 2.0 credentials. §VI.2: the Licence Ouverte Etalab 2.0 allows commercial use, at the user's own risk (no guarantee of reliability or availability); the data are not authentic (only the signed PDF of the Journal officiel is). The licence asks to name the source and the date of last update; the credit text is this policy's wording, not the DILA's."
+    }
+}
