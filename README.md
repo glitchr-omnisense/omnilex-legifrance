@@ -25,6 +25,14 @@ omnilex:
         legifrance: { factory: legifrance, options: { client_id: '%env(PISTE_CLIENT_ID)%', client_secret: '%env(PISTE_CLIENT_SECRET)%' } }
 ```
 
+## Install
+
+```sh
+composer require omnilex/legifrance
+```
+
+It brings the family's core, `omnisense/omnilex`, and `omnisense/contracts` with it. **A PISTE account is needed** (free, piste.gouv.fr), with an application subscribed to Légifrance: its OAuth client credentials (below). Without one, the tests run on recorded answers; for a first call with no account, take `omnilex/eurlex` or `omnilex/justice-administrative`.
+
 ## Not verified against the real service
 
 This package was written from the DILA's public documentation, without PISTE credentials:
